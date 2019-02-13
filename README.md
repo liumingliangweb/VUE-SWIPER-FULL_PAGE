@@ -1,4 +1,4 @@
-# hello-vuecli3
+# vue-swiper-fullpage
 
 ## Project setup
 ```
