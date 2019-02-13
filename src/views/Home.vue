@@ -1,8 +1,5 @@
 <template>
   <div class="home">
-    <!-- <div @click="jietu()">截图</div>
-    <input type="text" v-model="testData" />
-    <TestCom :testData="testData"></TestCom> -->
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>|
@@ -30,7 +27,7 @@ export default {
     }
   },
   methods: {
-    jietu() {
+    getRelationship() {
       var options = {text:'爸爸的妈妈的妈妈',sex:1};
       console.log(relationship(options));
     }

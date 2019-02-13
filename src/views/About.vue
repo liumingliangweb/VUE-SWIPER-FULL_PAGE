@@ -1,10 +1,10 @@
 <template>
   <div class="about">
-    <mt-button type="default">default</mt-button>
-    <mt-button type="primary">primary</mt-button>
+    <!-- <mt-button type="default">default</mt-button>
+    <mt-button type="primary">primary</mt-button> -->
     <h1>This is an about page</h1>
-    <div @click="dothat()" class="testclass">
-      <div @click="dothis()" class="children"></div>
+    <div @click.self="dothat()" class="testclass">
+      <div @click.self="dothis()" class="children"></div>
     </div>
   </div>
 </template>
